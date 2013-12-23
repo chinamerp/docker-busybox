@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM stackbrew/ubuntu:13.10
 RUN apt-get update -q
 RUN apt-get install -qy busybox-static
 RUN mkdir /rootfs
